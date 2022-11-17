@@ -5,56 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CSS Assignment</title>
-    <style>*{
-        margin-top: 10px ;
-        margin-left: 5px;
-        margin-right:5px;
-        margin-bottom:10px;
+    <style>
+        /*The body style*/
+    *{
+        margin: 10px,25px ;
         background-color: white;
-        border: 3px khaki;
         border-width: 20px;
-        border-radius: 5px;
-        padding-top: 10px;
-        padding-left: 15px;
-        padding-bottom: 10px;
-        padding-right: 15px;
-        outline-color: khaki;
-        outline-style: groove;
-        
-    }
+        border-radius:10px;
+        padding-top: 1px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        outline-style: groove 1px;
+     }
+
+       /*The heading style*/
+     h1{
+        text-align: center;
+        background-color: bisque;
+        color: darksalmon;
+        height: 40px;
+        width: 20cm ;
+        border: solid 3px;
+        padding-left: 5px;
+     }
+
+       /*The heading style*/
     .main{
         font-size: 18px;
-        text-align: left;
+        border:groove greenyellow 2px;
+        text-align:center;
+        background-color:beige;
+        padding-left: 1px;
+        border-width:5px;
+        width: 5cm; 
     }
-    .special{
+    .maim{
+        font-size: 18px;
+        border: groove red 2px;
+        text-align:center;
+        background-color:blanchedalmond(29, 29, 26);
+        padding-left: 10px;
+        border-width: 4px;
+        width: 5cm;
+    }
+    .maik{
+        font-size: 18px;
+        border:groove blue 2px;
+        text-align:center;
+        background-color:rgb(168, 212, 240);
+        padding-left: 1px;
+        border-width:5px;
+        width: 5cm;
+    }
+     /*The text style*/
+    .text1{
+        background-color: beige;
         color: green;
-        font-size: 14px;
+        border: solid green 3px;  
+        font-size: 14px; 
         font-weight:bold;
         font-style: italic;
-        text-align: left;
-    }        
-    .semi{
-        color: red;
-        font-size: 14px;
-        font-weight:bold;
-        font-style: italic;
+        text-align: justify;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 30px;  
     } 
-    .partial{
+    .text2{
+        background-color:lightyellow;
+        color: red;
+        border: solid red 3px;
+        font-size: 14px;
+        font-weight:bold;
+        font-style: italic;
+        text-align: justify;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 20px;  
+    } 
+    .text3{
+        background-color:lightyellow;
+        border: solid blue 3px;
         color: blue;
         font-size: 14px;
         font-weight:bold;
         font-style: italic;
-    }
-    </style>
-        
-    
+        text-align: justify;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 20px;  
+    } 
 
+    </style>
 </head>
 <body>
+    <!--The content-->
     <div>
-        <h1 style ="text-align: center;">MY CSS ASSIGNMENT</h1>
+        <h1>MY CSS ASSIGNMENT</h1>
     <h2 class = "main">FIRST SECTION</h2>
-    <p class = "special">My name is Kulepa Hiqmat Boluwatife. I am a student at Stutern learning Software Development.My love for Technology is so plenty.
+    <p class = "text1">My name is Kulepa Hiqmat Boluwatife. I am a student at Stutern learning Software Development.My love for Technology is so plenty.
         Starting from how It is easy to access the internet.The internet literally has a solution to every problem ecause one way the other some one has 
         encounter such problem, ranging from food receipes to best fashion combination to when your laptop gives errors(Abeg e choke lol)
           Another reason for my love is the cloud storage, are we talking about Neflix cloud or Telegram cloud, 
@@ -67,19 +115,17 @@
     </p>
 </div> 
     <div>
-        <h2 class = "main">SECOND SECTION</h2>
-        <p class="semi"> What I have learnt so far in css. I have learnt a lot in css ooo from the css types and selectors to  Box models.The css hierarchy
+        <h2 class = "maim">SECOND SECTION</h2>
+        <p class="text2"> What I have learnt so far in css. I have learnt a lot in css ooo from the css types and selectors to  Box models.The css hierarchy
          that show how css selectors are specific, how the three concept of css worked together to make up the styling of the webpage.CSS is so important
         and cruicial in webpage because CSS will help us achieve how to style our web page so that it looks exactly how we want it to look. 
         With CSS, you can apply specific formatting rules and styles to multiple pages with one string of code. One cascading style sheet can be replicated 
         across several website pages. If, for instance, you have product pages that should all have the same formatting,look, and feel,
         writing CSS rules for one page will suffice for all pages of that same type.</p>
-    </div>
-        
-         
+    </div>     
     <div>
-        <h2 class = "main">THIRD SECTION</h2>
-        <p class = "partial">This section is about explaining the differences between padding, margins and boarders.
+        <h2 class = "maik">THIRD SECTION</h2>
+        <p class = "text3">This section is about explaining the differences between padding, margins and boarders.
          BOARDING :This is used to set the border on an element,the CSS border properties (border-style, border-color, border-width and border-radius) are used 
          to specify the style, color and size of the border of an element,While he CSS border properties (border-style, border-color, border-width and border-radius)
           are us.
